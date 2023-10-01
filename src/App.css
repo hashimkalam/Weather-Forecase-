@@ -43,6 +43,13 @@
   border: none;
   background-color: rgba(245, 245, 245, 0.7);
   padding: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.app__container-input > ::placeholder {
+  text-align: center;
+  letter-spacing: 2px;
 }
 .app__container-input > button {
   background-color: #111 !important;
