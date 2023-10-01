@@ -41,7 +41,7 @@ function App() {
           <Button type="submit">Search</Button>
         </form>
 
-        {weather.name && (
+        {weather.name ? (
           <div className="app__weather-details">
             <p>
               <span>City:</span> {weather.name}
@@ -56,6 +56,12 @@ function App() {
               <span>Description:</span> {weather.weather[0].description}
             </p>
           </div>
+        ) : (
+          <p
+            id="app__error-msg"
+          >
+            wrong location searched!!
+          </p>
         )}
       </div>
     </div>

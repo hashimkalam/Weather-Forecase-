@@ -59,9 +59,22 @@
 .app__weather-details {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
+}
+.app__weather-details > p {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
   text-align: center;
 }
 
 .app__weather-details span {
   font-weight: 600;
+}
+
+#app__error-msg {
+  padding: 10px;
+  background-color: #444;
+  color: rgba(255, 0, 0, 0.902);
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
 }
